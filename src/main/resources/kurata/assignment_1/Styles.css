@@ -1,0 +1,116 @@
+/* Root and Grid Styling */
+.root {
+    -fx-background-image: url('background3.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.grid-pane {
+    -fx-hgap: 20px;
+    -fx-vgap: 20px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* ScrollPane Styling */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent; /* Removes white background inside the scrollable area */
+}
+
+.thumbnail {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-cursor: hand;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 0);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Full-Size View Styling */
+.full-view {
+    -fx-background-image: url('background2.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.full-view .image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 0);
+}
+
+/* Navigation Controls */
+.controls {
+    -fx-padding: 10px;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-border-radius: 5px;
+}
+
+/* Heading Styling */
+.heading {
+    -fx-font-size: 80px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 20 0 10 0;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #4CAF50;
+}
+
+/* Album Selection Screen Styling */
+.album-box {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
+
+.album-button {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.album-button:hover {
+    -fx-background-color: #34495e;
+}
+
+/* Album Icon Styling */
+.album-icon {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+/* Back Button Styling */
+.back-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color: #c0392b;
+}
