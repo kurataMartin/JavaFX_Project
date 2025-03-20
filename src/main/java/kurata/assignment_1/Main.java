@@ -39,9 +39,9 @@ public class Main extends Application {
         primaryStage.setTitle("Image Gallery");
 
         // Define album paths
-        albumPaths.put("Cars", "C:/Users/kurat/OneDrive/Documentos/Assignment_1/src/images/cars");
-        albumPaths.put("Food", "C:/Users/kurat/OneDrive/Documentos/Assignment_1/src/images/food");
-        albumPaths.put("Shoes", "C:/Users/kurat/OneDrive/Documentos/Assignment_1/src/images/shoes");
+        albumPaths.put("Cars", "C:/projects/Assignment_1/src/images/cars");
+        albumPaths.put("Food", "C:/projects/Assignment_1/src/images/food");
+        albumPaths.put("Shoes", "C:/projects/Assignment_1/src/images/shoes");
 
         // Create album selection screen
         albumSelectionScreen = createAlbumSelectionScreen();
@@ -71,7 +71,7 @@ public class Main extends Application {
             VBox albumContainer = new VBox(10);
             albumContainer.setAlignment(Pos.CENTER);
 
-            ImageView albumIcon = new ImageView(new Image("file:C:/Users/kurat/OneDrive/Documentos/Assignment_1/src/images/icon.jpg", 100, 100, true, true));
+            ImageView albumIcon = new ImageView(new Image("file:C:/projects/Assignment_1/src/images/icon.jpg", 100, 100, true, true));
             Button albumButton = new Button(album);
             albumButton.getStyleClass().add("button");
             albumButton.setOnAction(e -> loadAlbum(album));
