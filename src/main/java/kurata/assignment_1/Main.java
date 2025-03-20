@@ -40,8 +40,8 @@ public class Main extends Application {
 
         // Define album paths
         albumPaths.put("Cars", "src/images/cars");
-        albumPaths.put("Food", "C:src/images/food");
-        albumPaths.put("Shoes", "C:src/images/shoes");
+        albumPaths.put("Food", "src/images/food");
+        albumPaths.put("Shoes", "src/images/shoes");
 
         // Create album selection screen
         albumSelectionScreen = createAlbumSelectionScreen();
